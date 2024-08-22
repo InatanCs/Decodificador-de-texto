@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de Texto</title>
+    <link rel="shortcut icon" href="img/Github-Octicons-Code-16.512.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="img/logo-4303138_640.png" alt="Logo Porco Rosa" class="logo_img">
+        </header>
+
+        <section>
+            <form class="form_principal" id="formulario">
+                <textarea placeholder="Digite seu texto." id="textarea_input" name="input" rows="20" cols="50"></textarea>
+                <div class="info_mensagem">
+                    <img src="img/Group.png" alt="Informações sobre o texto">
+                    <p>Apenas letras minúsculas e sem caracteres especiais.</p>
+                </div>
+                <div class="area_botoes">
+                    <button type="button" class="botao criptografar_btn" id="btnCriptografar">Criptografar</button>
+                    <button type="button" class="botao descriptografar_btn" id="btnDescriptografar">Descriptografar</button>
+                    <button type="button" id="btnCopiar" class="botao botao_copiar">Copiar</button>
+                </div>
+            </form>
+        </section>
+
+        <section>
+            <div id="output_div">
+                <h2 id="texto_output"></h2>
+                <img id="gato_img" class="output_img" src="img/cat-8863536_640.png" alt="Luna">
+                <h3>Nenhuma mensagem localizada</h3>
+                <button type="button" id="btnCopiarOutput" class="botao botao_copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <h4>Desenvolvido por Inatan Seixas</h4>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
