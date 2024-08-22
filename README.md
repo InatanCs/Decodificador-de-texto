@@ -44,17 +44,3 @@ Este é um projeto de um decodificador de texto que utiliza um sistema de substi
 ├── style.css          # Arquivo de estilos CSS
 ├── app.js             # Arquivo principal JavaScript
 └── assets/            # Pasta com as imagens e ícones
-
-Como Contribuir
-Faça um fork deste repositório.
-Crie uma nova branch: git checkout -b minha-nova-feature.
-Faça suas alterações e commite: git commit -m 'Adiciona nova feature'.
-Envie para o GitHub: git push origin minha-nova-feature.
-Crie um Pull Request.
-Autor
-Inatan Seixas
-LinkedIn | GitHub
-
-Licença
-Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
-
