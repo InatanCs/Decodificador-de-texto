@@ -43,4 +43,4 @@ Este é um projeto de um decodificador de texto que utiliza um sistema de substi
 ├── index.html         # Arquivo principal HTML
 ├── style.css          # Arquivo de estilos CSS
 ├── app.js             # Arquivo principal JavaScript
-└── assets/            # Pasta com as imagens e ícones
+└── img/            # Pasta com as imagens e ícones
